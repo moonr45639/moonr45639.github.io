@@ -65,6 +65,9 @@ div#app:empty:before {
 body,
 html {
     height: 100%
+    /* 改 */
+
+    /* 改 */
 }
 
 body {
@@ -771,25 +774,32 @@ body {
 
 .markdown-section h1 {
     font-size: 2rem;
-    margin: 0 0 1rem
+    /* margin: 0 0 1rem */
+    /* 修改 */
+    margin: 50px 0 2rem
 }
 
 .markdown-section h2 {
     font-size: 1.75rem;
-    margin: 45px 0 .8rem
+    /* margin: 45px 0 .8rem */
+    /* 修改 */
+    margin: 50px 0 2rem
 }
 
 .markdown-section h3 {
     font-size: 1.5rem;
-    margin: 40px 0 .6rem
+    /* margin: 40px 0 .6rem */
+    /* 修改 */
+    margin: 50px 0 2rem
 }
 
 .markdown-section h4 {
-    font-size: 1.25rem
+    font-size: 1.35rem
+    
 }
 
 .markdown-section h5 {
-    font-size: 1rem
+    font-size: 1.25rem
 }
 
 .markdown-section h6 {
@@ -805,7 +815,9 @@ body {
 .markdown-section ol,
 .markdown-section p,
 .markdown-section ul {
-    line-height: 1.6rem;
+    /* 修改 */
+    line-height: 4.6rem;
+    /* line-height: 1.6rem; */
     word-spacing: .05rem
 }
 
@@ -818,12 +830,14 @@ body {
     border-left: 4px solid var(--theme-color, #42b983);
     color: #858585;
     margin: 2em 0;
-    padding-left: 20px
+    padding-left: 35px
 }
 
 .markdown-section blockquote p {
     font-weight: 600;
-    margin-left: 0
+    margin-left: 0;
+    line-height: 2.6rem;
+    
 }
 
 .markdown-section iframe {
